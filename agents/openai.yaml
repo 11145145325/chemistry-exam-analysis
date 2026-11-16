@@ -1,4 +1,4 @@
 interface:
   display_name: "高中化学试卷解析"
   short_description: "逐题逐选项详解高中化学试卷，核对参考答案，并标注课本考点的具体页码"
-  default_prompt: "用 $chemistry-exam-analysis 逐题逐选项详解。按人教社高中化学电子教材目录里的课本核实印刷页码，教材链接放在文首。"
+  default_prompt: "用 $chemistry-exam-analysis 逐题逐选项详解。教材只以人教社电子教材目录中的人教版高中化学课本为准，按实际打开的电子本正文核实印刷页码，教材链接放在文首。"
